@@ -1,7 +1,7 @@
 <!-- A proxy for "if we're building on GitHub" -->
 
 {% if site.safe %}
-    {% assign BASE_PATH = 'http://dlab-berkeley.github.io/dlab-methods' %}
+    {% assign BASE_PATH = 'http://ucberkeley.github.io/bce-documentation' %}
 {% else %}
     {% assign BASE_PATH = nil %}
 {% endif %}
