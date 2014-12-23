@@ -1,4 +1,4 @@
-name: D-Lab Methods
+name: BCE
 markdown: redcarpet
 redcarpet:
     extensions: ['smart']
