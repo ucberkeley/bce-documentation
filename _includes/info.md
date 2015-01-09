@@ -1,4 +1,2 @@
-#### Links
-
- - [Mailing List]()
- - [Mailing List Archive]()
+ - [Help Forum](https://groups.google.com/forum/#!forum/ucb-bce)
+ - [Laptop Installation](laptop-installation)
