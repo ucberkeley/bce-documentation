@@ -56,7 +56,7 @@ BCE is a project that started by
 [D-Lab](http://dlab.berkeley.edu)
 and the
 [SCF (Statistical Computing Facility)](http://statistics.berkeley.edu/computing).
-Current collaborators in include
+Current collaborators include
 [BRC (Berkeley Research Computing)](http://research-it.berkeley.edu/brc),
 [the School of Information](http://ischool.berkeley.edu),
 [the Linguistics Department](http://linguistics.berkeley.edu/plab/guestwiki/index.php?title=Berkeley_Phonetics_Machine),
