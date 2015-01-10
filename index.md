@@ -52,7 +52,7 @@ To accomplish this, we envision that BCE will encompass the following:
 
 ### Who are we?
 
-BCE is a project that started by
+BCE is a project started by
 [D-Lab](http://dlab.berkeley.edu)
 and the
 [SCF (Statistical Computing Facility)](http://statistics.berkeley.edu/computing).
