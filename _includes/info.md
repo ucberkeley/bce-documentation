@@ -1,2 +1,3 @@
- - [Help Forum](https://groups.google.com/forum/#!forum/ucb-bce)
  - [Laptop Installation](laptop-installation.html)
+ - [Troubleshooting Tips](troubleshooting-tips.html)
+ - [Support Forum](https://groups.google.com/forum/#!forum/ucb-bce)
