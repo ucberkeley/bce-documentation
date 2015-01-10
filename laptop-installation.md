@@ -16,6 +16,19 @@ title: Laptop Installation
     After a few seconds you should see black screen and then the VM's
     desktop.
 
+### Installation trouble?
+
+If you encountered problems during installation, here are some options:
+
+- Attend the next scheduled group installation session where experts
+  will help you install BCE, get you familiar with the environment, or
+  help you find an alternative if your laptop is not capable of
+  running BCE. The next session is: **11am-1pm, Jan 12th at D-Lab in 365 Barrows Hall.**
+
+- Ask for help via email on the [BCE community support forum](https://groups.google.com/forum/#!forum/ucb-bce)
+
+- Attempt to fix it yourself by trying our [Troubleshooting Tips](troubleshooting-tips.html).
+
 ### Using BCE
 
 You now have a machine that has all the software installed as part of
