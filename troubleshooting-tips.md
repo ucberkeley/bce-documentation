@@ -27,7 +27,7 @@ While many recent PC laptops support hardware virtualization, some
 computer vendors enable this feature as shipped from the factory.
 
 If you are familiar with changing settings in your system BIOS, you
-may try: [Enabling Virtualization in your PC BIOS].
+may try: [Enabling Virtualization in your PC BIOS](enabling-virtualization-in-your-pc-bios.html).
 
 However, many older, and even some brand new, PC laptops do not
 support hardware virtualization at all.
