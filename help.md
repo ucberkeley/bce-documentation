@@ -3,10 +3,12 @@ layout: default
 title: help
 ---
 
+### Getting help with BCE
+
 If you encountered problems installing or using BCE here are some
 options available that may help:
 
-### Install Sessions
+#### Install Sessions
 
 The next BCE install session will be held on:
 
@@ -19,10 +21,10 @@ will help you install BCE, get you familiar with the environment, or
 help you find an alternative if your laptop is not capable of running
 BCE.
 
-### BCE Community Support Forum
+#### BCE Community Support Forum
 
 Ask for help via email on the [BCE community support forum](https://groups.google.com/forum/#!forum/ucb-bce)
 
-### Self-help
+#### Troubleshooting Tips
 
-- Attempt to fix it yourself by trying our [Troubleshooting Tips](troubleshooting-tips.html).
+If you'd like to attempt to fix it yourself, you may want to check out our [Troubleshooting Tips](troubleshooting-tips.html).
