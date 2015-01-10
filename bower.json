@@ -1,8 +1,11 @@
 {
-  "name": "dlab-methods",
+  "name": "bce-documentation",
   "version": "0.1",
   "authors": [
-    "Dav Clark <davclark@berkeley.edu>"
+    "Dav Clark <davclark@berkeley.edu>",
+    "Ryan Lovett <rylo@berkeley.edu>",
+    "Chris Paciorek <paciorek@berkeley.edu>",
+    "Aaron Culich <aculich@berkeley.edu>"
   ],
   "description": "A site to help folks navigate methods of inquiry at a high level",
   "license": "FreeBSD (2-clause)",
