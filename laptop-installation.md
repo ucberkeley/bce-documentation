@@ -1,3 +1,7 @@
+---
+layout: default
+title: Laptop Installation
+---
 ### Getting the VM up and running
 
   * Download and install VirtualBox from the [VirtualBox
