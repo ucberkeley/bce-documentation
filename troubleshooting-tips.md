@@ -24,7 +24,7 @@ hardware virtualization required to run a Virtual machine.
 ##### Is your Virtualization feature turned on?
 
 While many recent PC laptops support hardware virtualization, some
-computer vendors enable this feature as shipped from the factory.
+computer vendors disable this feature as shipped from the factory.
 
 If you are familiar with changing settings in your system BIOS, you
 may try: [Enabling Virtualization in your PC BIOS](enabling-virtualization-in-your-pc-bios.html).
