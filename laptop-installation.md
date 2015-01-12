@@ -6,7 +6,7 @@ title: Laptop Installation
 
 1) Download and install Oracle VirtualBox from the [VirtualBox website](https://www.virtualbox.org/wiki/Downloads).
 
-2) Download the BCE Virtual Machine (VM): [BCE-2015-spring-preview-2.ova](https://https://berkeley.box.com/s/a4736ybkl7emdmnleu6f) (3.2GB; MD5: b6062814ebbef4d0e65cf2b42eac42d7)
+2) Download the BCE Virtual Machine (VM): [BCE-2015-spring-preview-2.ova](https://berkeley.box.com/s/a4736ybkl7emdmnleu6f) (3.2GB; MD5: b6062814ebbef4d0e65cf2b42eac42d7)
 
 3) Open the VirtualBox application you installed in Step 1.
 
