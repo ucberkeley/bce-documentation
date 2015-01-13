@@ -12,7 +12,7 @@ options available that may help:
 
 The next BCE install session will be held on:
 
-**11am-1pm, Jan 12th at D-Lab in 365 Barrows Hall**
+**11am-12:30pm, Jan 13th at D-Lab in 365 Barrows Hall**
 
 Experts are available to help you install and get familiar with BCE.
 
