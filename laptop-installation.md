@@ -13,7 +13,7 @@ title: Laptop Installation
 
 3) Open the VirtualBox application you installed in Step 1.
 
-4) From the menu select **File > Import appliance** and locate the BCE .ova file you downloaded in step 2.
+4) From the menu select **File > Import appliance** and locate the BCE .ova file you downloaded in Step 2.
 
 5) Wait a few minutes while the BCE .ova file is imported as a VirtualBox VM.
 
