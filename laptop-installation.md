@@ -6,19 +6,19 @@ title: Laptop Installation
 
 1) Download and install Oracle VirtualBox from the [VirtualBox website](https://www.virtualbox.org/wiki/Downloads).
 
-2) Download the BCE Virtual Machine (VM): [BCE-2015-spring-preview-2.ova](https://berkeley.box.com/s/a4736ybkl7emdmnleu6f) (3.2GB; MD5: b6062814ebbef4d0e65cf2b42eac42d7)
+2) Download the BCE Virtual Machine (VM):
+- [BCE-2015-spring-preview-2.ova](https://berkeley.box.com/s/a4736ybkl7emdmnleu6f) (3.2GB; MD5: b6062814ebbef4d0e65cf2b42eac42d7)
+- [BCE-2015-spring.ova](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) (3.4GB; MD5: 3d26353b7969ebcee6755529ae0751fc)
 
 3) Open the VirtualBox application you installed in Step 1.
 
-4) From the menu select: **File > Import appliance** and locate the **BCE-2015-spring-preview-2.ova** file you just downloaded.
+4) From the menu select **File > Import appliance** and locate the BCE .ova file you downloaded in step 2.
 
 5) Wait a few minutes while the BCE .ova file is imported as a VirtualBox VM.
 
-6) Once importing finishes, you will see **BCE-2015-spring-preview-2** appear in the Powered Off state in the Oracle VM VirtualBox Manager.
+6) Once importing finishes, it will appear in the Powered Off state in the Oracle VM VirtualBox Manager. Select it, then click the **Start** button.
 
-7) Select **BCE-2015-spring-preview-2** and then click the **Start** button.
-
-8) This will start a virtual Linux computer within your own machine.
+7) This will start a virtual Linux computer within your own machine.
   After a few seconds you should see black screen and then the VM's
   desktop.
 
