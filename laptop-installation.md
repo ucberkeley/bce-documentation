@@ -3,16 +3,16 @@ layout: default
 title: Laptop Installation
 ---
 
-BCE is currently available in two forms.
-  - [To install on your laptop][laptop]
-  - [To use BCE on Amazon's EC2][ec2]
+BCE is currently available in two forms, both documented below.
+
+  - Installing on your laptop.
+  - Using BCE on Amazon EC2 virtual machines.
 
 ### Installing BCE on your laptop
-[laptop]: http://bce.berkeley.edu/
 
 1) Download and install Oracle VirtualBox from the [VirtualBox website](https://www.virtualbox.org/wiki/Downloads).
 
-2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](/downloads.html/).
+2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](/bce-documentation/downloads.html).
 
 3) Open the VirtualBox application you installed in Step 1.
 
@@ -26,7 +26,7 @@ BCE is currently available in two forms.
   After a few seconds you should see black screen and then the VM's
   desktop.
 
-### Installation trouble?
+#### Installation trouble?
 
 If you encountered problems during installation, here are some options:
 
@@ -39,8 +39,11 @@ If you encountered problems during installation, here are some options:
 
 - Attempt to fix it yourself by trying our [Troubleshooting Tips](troubleshooting-tips.html).
 
+### Running BCE on EC2 instances
+
+
+
 ### Using BCE
-[ec2]: http://bce.berkeley.edu/
 
 You now have a machine that has all the software installed as part of
 BCE, including IPython, useful Python packages, R, RStudio, and useful
