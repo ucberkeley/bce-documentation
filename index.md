@@ -61,3 +61,7 @@ Current collaborators include
 [the School of Information](http://ischool.berkeley.edu),
 [the Linguistics Department](http://linguistics.berkeley.edu/plab/guestwiki/index.php?title=Berkeley_Phonetics_Machine),
 and other independent contributors.
+
+### Technical details on provisioning BCE
+
+To see how we provision BCE, check out [our Github page](https://github.com/ucberkeley/bce), following the instructions in the [HOWTO page](https://github.com/ucberkeley/bce/blob/master/provisioning/HOWTO.md) of the **provisioning** directory.
