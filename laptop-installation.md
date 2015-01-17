@@ -6,7 +6,7 @@ title: Laptop Installation
 BCE is currently available in two forms, both documented below.
 
   - Installing on your laptop.
-  - Using BCE on Amazon EC2 virtual machines.
+  - Using BCE on Amazon EC2 instances.
 
 ### Installing BCE on your laptop
 
@@ -26,18 +26,7 @@ BCE is currently available in two forms, both documented below.
   After a few seconds you should see black screen and then the VM's
   desktop.
 
-#### Installation trouble?
-
-If you encountered problems during installation, here are some options:
-
-- Attend the next scheduled group installation session where experts
-  will help you install BCE, get you familiar with the environment, or
-  help you find an alternative if your laptop is not capable of
-  running BCE. The next session is: **11am-1pm, Jan 12th at D-Lab in 365 Barrows Hall.**
-
-- Ask for help via email on the [BCE community support forum](https://groups.google.com/forum/#!forum/ucb-bce)
-
-- Attempt to fix it yourself by trying our [Troubleshooting Tips](troubleshooting-tips.html).
+**Installation trouble?** See our [help page](/bce-documentation/help.html).
 
 ### Running BCE on EC2 instances
 
@@ -46,5 +35,7 @@ If you encountered problems during installation, here are some options:
   - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-1 (N. California) or us-west-2 (Oregon) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
   - On the **AMIs** tab, search for and select the most recent BCE AMI amongst public images (currently ami-2d9a8b68 in us-west-1, and ami-1feabf2f in us-west-2).
   - Launch an instance
-  - Follow the instructions given in the “Connect” button to SSH to the instance
-  - If you want to connect to the instance as the “oski” user, you can deposit your public SSH key in the .ssh folder of the “oski” user. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt.
+  - Follow the instructions given in the **Connect** button to SSH to the instance
+  - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
+
+Eventually we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.

@@ -33,5 +33,5 @@ One useful thing will be to share folders between the VM and the host machine so
   - Click **Auto-mount** and **Make permanent** and then click **Ok** twice.
   - Reboot the machine by clicking on the red power button on the upper right and choosing **Restart**.
   - Once the VM is running again, click on the **Shared** folder on the desktop. You should see the folder **sf_Documents** (or whatever the folder name you selected was, in place of “Documents”). You can drag and drop files into and out of the folder.
-  - Alternatively, from the Terminal, you can also see the directory by doing ````cd ~/Desktop/Shared/sf_Documents``` and then `ls` will show you the files. 
+  - Alternatively, from the Terminal, you can also see the directory by doing `cd ~/Desktop/Shared/sf_Documents` and then `ls` will show you the files. 
   - Be careful. Unless you selected **Read only** at the same time as **Make permanent**, any changes to the shared folder on the VM affects the folder in the *real world*, namely your computer.
