@@ -43,8 +43,8 @@ If you encountered problems during installation, here are some options:
 
 [UNDER CONSTRUCTION - we don't currently have the BCE Spring 2015 VM available for EC2 but hope to do shortly. In the meantime you can test things out using one of our older beta version (BCE-0.1.7) AMIs as described here.]
 
-  - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), selecting EC2, and choosig the us-west-1 (N. California) or us-west-2 (Oregon) region, as that is where we have posted the BCE AMI. (You’ll need to have an account set up.)
-  - On the “AMIs” tab, search for the most recent BCE AMI amongst public images (currently ami-2d9a8b68 in us-west-1, and ami-1feabf2f in us-west-2).
+  - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-1 (N. California) or us-west-2 (Oregon) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
+  - On the **AMIs** tab, search for and select the most recent BCE AMI amongst public images (currently ami-2d9a8b68 in us-west-1, and ami-1feabf2f in us-west-2).
   - Launch an instance
   - Follow the instructions given in the “Connect” button to SSH to the instance
-  - If you want to connect as the “oski” user, you can deposit your public SSH key in the .ssh folder of the “oski” user.
+  - If you want to connect to the instance as the “oski” user, you can deposit your public SSH key in the .ssh folder of the “oski” user. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt.
