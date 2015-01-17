@@ -31,3 +31,8 @@ may try: [Enabling Virtualization in your PC BIOS](enabling-virtualization-in-yo
 
 However, many older, and even some brand new, PC laptops do not
 support hardware virtualization at all.
+
+#### Other possible issues
+
+  - Check that you have the complete .ova file downloaded by comparing the file size on your computer to the information on our [downloads page](/bce-documentation/downloads.html).
+  - If you get a text-based screen with some wording about a UEFI shell, try clicking on the **Settings** tab for the **Oracle VM VirtualBox Manager** window and clicking on **System**. Under the **Motherboard** page, be sure that **Enable EFI (special OSes only)** is unchecked. Then click **OK**, and try to start the VM again. 
