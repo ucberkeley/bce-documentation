@@ -12,15 +12,15 @@ BCE is currently available in two forms, both documented below.
 
 1) Download and install Oracle VirtualBox for:
 
-  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg)
-  - <span class="fa fa-windows fa-2x"<span></span> [Windows](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe)
+  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X VirtualBox-4.3.20-96996-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg) (108MB)
+  - <span class="fa fa-windows fa-2x"<span></span> [Windows VirtualBox-4.3.20-96997-Win.exe](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe) (105MB)
   - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
   - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
 
 2) Download the latest BCE Virtual Machine (VM):
 
-  - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) 
-    - (3.4GB; MD5: 3d26353b7969ebcee6755529ae0751fc)
+  - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) (3.4GB)
+    - (MD5 integrity checksum: 3d26353b7969ebcee6755529ae0751fc)
 
 3) Open the VirtualBox application you installed in Step 1.
 
