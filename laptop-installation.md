@@ -12,7 +12,7 @@ BCE is currently available in two forms, both documented below.
 
 1) Download and install Oracle VirtualBox from the [VirtualBox website](https://www.virtualbox.org/wiki/Downloads).
 
-2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](/bce-documentation/downloads.html).
+2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](downloads.html).
 
 3) Open the VirtualBox application you installed in Step 1.
 
@@ -26,7 +26,7 @@ BCE is currently available in two forms, both documented below.
   After a few seconds you should see black screen and then the VM's
   desktop.
 
-**Installation trouble?** See our [help page](/bce-documentation/help.html).
+**Installation trouble?** See our [help page](help.html).
 
 ### Running BCE on EC2 instances
 
