@@ -50,4 +50,4 @@ Eventually we hope to post tips on creating an EC2 virtual cluster with multiple
 
 ### Download older versions of BCE
 
-Older versions of BCE are available from the [BCE Downloads page](/bce-documentation/downloads.html).
+Older versions of BCE are available from the [BCE Downloads page](/downloads.html).
