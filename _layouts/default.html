@@ -1,4 +1,3 @@
-{% include site_vars %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,9 +9,9 @@
     <title>{{ page.title }}</title>
 
     <!-- Hard coding bower packages for now, see end for js -->
-    <link rel="stylesheet" href="{{ BASE_PATH }}/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="{{ BASE_PATH }}/custom_assets/main.css">
+    <link rel="stylesheet" href="/custom_assets/main.css">
 
     <!-- Maybe add these as a fallback, but local resources are necessary for
          dev without internet
@@ -42,17 +41,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ BASE_PATH }}/">{{ site.name }}</a>
+            <a class="navbar-brand" href="/">{{ site.name }}</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <!-- we can figure out how to make the current page's <li>
               class="active" and get highlighting. -->
-                <li> <a href="{{ BASE_PATH }}/index.html">about</a> </li>
-                <li> <a href="{{ BASE_PATH }}/downloads.html">downloads</a> </li>
-                <li> <a href="{{ BASE_PATH }}/laptop-installation.html">install</a> </li>
-                <li> <a href="{{ BASE_PATH }}/use.html">use</a> </li>
-                <li> <a href="{{ BASE_PATH }}/help.html">help</a> </li>
+                <li> <a href="/index.html">about</a> </li>
+                <li> <a href="/downloads.html">downloads</a> </li>
+                <li> <a href="/laptop-installation.html">install</a> </li>
+                <li> <a href="/use.html">use</a> </li>
+                <li> <a href="/help.html">help</a> </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -98,8 +97,8 @@
 
 
     <!-- Scripts at end to speed page load -->
-    <script src="{{ BASE_PATH }}/bower_components/jquery/jquery.min.js"></script>
-    <script src="{{ BASE_PATH }}/bower_components/bootstrap/dist/js/bootstrap.min.js">
+    <script src="/bower_components/jquery/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js">
       </script>
 
   </body>
