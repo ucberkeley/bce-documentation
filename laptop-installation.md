@@ -33,7 +33,7 @@ BCE is currently available in two forms, both documented below.
   After a few seconds you should see black screen and then the VM's
   desktop.
 
-**Installation trouble?** See our [help page](/bce-documentation/help.html).
+**Installation trouble?** See our [help page](help.html).
 
 ### Running BCE on EC2 instances
 

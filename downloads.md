@@ -7,7 +7,7 @@ title: Downloads
 
   - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) 
     - (3.4GB; MD5: 3d26353b7969ebcee6755529ae0751fc)
-    - Patch file: none [patching instructions](/bce-documentation/patch.html)
+    - Patch file: none [patching instructions](patch.html)
 
 ## Upcoming preview versions
 
