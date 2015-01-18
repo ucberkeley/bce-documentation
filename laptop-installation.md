@@ -8,7 +8,7 @@ BCE is currently available in two forms, both documented below.
   - Installing on your laptop.
   - Using BCE on Amazon EC2 instances.
 
-### Installing BCE on your laptop
+### Installing BCE on your laptop or desktop computer
 
 1) Download and install Oracle VirtualBox for:
 
