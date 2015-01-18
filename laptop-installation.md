@@ -10,7 +10,11 @@ BCE is currently available in two forms, both documented below.
 
 ### Installing BCE on your laptop
 
-1) Download and install Oracle VirtualBox from the [VirtualBox website](https://www.virtualbox.org/wiki/Downloads).
+1) Download and install Oracle VirtualBox for:
+
+  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg)
+  - <span class="fa fa-windows fa-2x"<span></span> [Windows](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe)
+  - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](/bce-documentation/downloads.html).
 
