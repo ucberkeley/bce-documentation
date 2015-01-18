@@ -10,11 +10,12 @@ options available that may help:
 
 #### Install Sessions
 
+During the install session experts are available to help you install
+BCE and answer your questions.
+
 The next BCE install session will be held on:
 
 **2:30-3pm, Jan 18th at D-Lab in 365 Barrows Hall**
-
-Experts are available to help you install and get familiar with BCE.
 
 Attend the next scheduled group installation session where experts
 will help you install BCE, get you familiar with the environment, or
