@@ -16,7 +16,9 @@ BCE is currently available in two forms, both documented below.
   - <span class="fa fa-windows fa-2x"<span></span> [Windows](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe)
   - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
 
-2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](/bce-documentation/downloads.html).
+2) Download the latest BCE Virtual Machine (VM):
+  - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) 
+    - (3.4GB; MD5: 3d26353b7969ebcee6755529ae0751fc)
 
 3) Open the VirtualBox application you installed in Step 1.
 
@@ -43,3 +45,7 @@ BCE is currently available in two forms, both documented below.
   - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
 
 Eventually we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.
+
+### Older versions of BCE
+
+Older versions of BCE are available from the [BCE Downloads page](/bce-documentation/downloads.html).
