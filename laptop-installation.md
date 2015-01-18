@@ -15,6 +15,7 @@ BCE is currently available in two forms, both documented below.
   - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg)
   - <span class="fa fa-windows fa-2x"<span></span> [Windows](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe)
   - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
+  - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
 
 2) Download the latest BCE Virtual Machine (VM):
   - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) 
@@ -46,6 +47,6 @@ BCE is currently available in two forms, both documented below.
 
 Eventually we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.
 
-### Older versions of BCE
+### Download older versions of BCE
 
 Older versions of BCE are available from the [BCE Downloads page](/bce-documentation/downloads.html).
