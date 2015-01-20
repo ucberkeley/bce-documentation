@@ -8,6 +8,10 @@ BCE is currently available in two forms, both documented below.
   - Installing on your laptop.
   - Using BCE on Amazon EC2 instances.
 
+### Before you begin the installation process
+
+The download and install process **requires at least 10GB free** on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors.
+
 ### Installing BCE on your laptop or desktop computer
 
 1) Download and install Oracle VirtualBox for:
