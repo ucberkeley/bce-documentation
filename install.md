@@ -8,11 +8,19 @@ BCE is currently available in two forms, both documented below.
   - Installing on your laptop.
   - Using BCE on Amazon EC2 instances.
 
-### Installing BCE on your laptop
+### Installing BCE on your laptop or desktop computer
 
-1) Download and install Oracle VirtualBox from the [VirtualBox website](https://www.virtualbox.org/wiki/Downloads).
+1) Download and install Oracle VirtualBox for:
 
-2) Download the BCE Virtual Machine (VM) from the [BCE Downloads page](downloads.html).
+  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X VirtualBox-4.3.20-96996-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg) (108MB)
+  - <span class="fa fa-windows fa-2x"<span></span> [Windows VirtualBox-4.3.20-96997-Win.exe](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe) (105MB)
+  - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
+  - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
+
+2) Download the latest BCE Virtual Machine (VM) Appliance file (.ova):
+
+  - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) (3.4GB)
+    - (MD5 integrity checksum: 3d26353b7969ebcee6755529ae0751fc)
 
 3) Open the VirtualBox application you installed in Step 1.
 
@@ -39,3 +47,7 @@ BCE is currently available in two forms, both documented below.
   - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
 
 Eventually we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.
+
+### Download older versions of BCE
+
+Older versions of BCE are available from the [BCE Downloads page](/downloads.html).
