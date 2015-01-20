@@ -8,9 +8,9 @@ BCE is currently available in two forms, both documented below.
   - Installing on your laptop.
   - Using BCE on Amazon EC2 instances.
 
-### Before you begin the installation process
+### Do you have 10GB free space?
 
-The download and install process **requires at least 10GB free** on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors.
+Before you begin the download and install process **requires at least 10GB free** on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors. If you do not have 10GB free, then visit the [help page](help.html) to inquire about other options.
 
 ### Installing BCE on your laptop or desktop computer
 
