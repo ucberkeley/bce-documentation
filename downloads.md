@@ -23,3 +23,9 @@ title: Downloads
 
   - [Spring 2015 Preview #2 (BCE-2015-spring-preview-2.ova)](https://berkeley.box.com/s/a4736ybkl7emdmnleu6f) 
     - (3.2GB; MD5: b6062814ebbef4d0e65cf2b42eac42d7)
+
+## Release schedule
+
+We plan to release a new version of BCE at the start of each semester (January for spring semester and August for fall semester). In preparation for each semestter we'll prepare and make available a preview version that will allow us to test things out and get feedback before releasing the final version for the semester.
+
+As need arises, we will release patches to fix issues in the official release. These patches will simply be code files that a user can run within the VM to update the VM.
