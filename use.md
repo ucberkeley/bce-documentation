@@ -14,11 +14,11 @@ UNIX-style shell by clicking on the icon of the black box with the *$*
 symbol on the top panel. You can start applications by typing them in the
 terminal or by clicking on their menu entry. For example:
 
-|   Terminal Command | Menu                                              |
+| Terminal Command   | Menu                                              |
 | :----------------- | :------------------------------------------------ |
 | `ipython notebook` | **Applications > Programming > IPython Notebook** |
-|          `rstudio` | **Applications > Programming > RStudio**          |
-|                `R` | **Applications > Programming > R**                |
+| `rstudio`          | **Applications > Programming > RStudio**          |
+| `R`                | **Applications > Programming > R**                |
 
 #### Stopping and restarting the VM on your laptop
 
