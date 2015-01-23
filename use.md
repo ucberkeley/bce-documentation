@@ -11,11 +11,12 @@ R packages.
 
 You can get a terminal window that allows you to type commands in a
 UNIX-style shell by clicking on the icon of the black box with the *$*
-symbol on the top panel. You can start IPython Notebook in the
-terminal by simply typing `ipython notebook`, or R by simply typing
-`R`. This starts a bare-bones R session. To start RStudio, either type
-`rstudio` at the prompt on go to **Applications > Programming >
-RStudio**.
+symbol on the top panel. You can start applications by typing them in the
+terminal or by clicking on their menu entry. For example:
+
+  - Typing `ipython notebook` or clicking **Applications > Programming > IPython Notebook**
+  - Typing `rstudio` or clicking **Applications > Programming > RStudio**
+  - Typing `R` or clicking **Applications > Programming > R**
 
 #### Stopping and restarting the VM on your laptop
 
