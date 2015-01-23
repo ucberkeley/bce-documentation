@@ -32,6 +32,10 @@ may try: [Enabling Virtualization in your PC BIOS](enabling-virtualization-in-yo
 However, many older, and even some brand new, PC laptops do not
 support hardware virtualization at all.
 
+#### Chromebooks, Netbooks, and ARM-based computers
+
+You are likely to have problems if you try to use BCE on these kinds of machines. 
+
 #### Other possible issues
 
   - Check that you have the complete .ova file downloaded by comparing the file size on your computer to the information on our [downloads page](downloads.html).

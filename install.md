@@ -10,7 +10,7 @@ BCE is currently available in two forms, both documented below.
 
 ### Do you have 14 Gb free space?
 
-Before you begin, the download and install process **requires at least 14GB free** (only 10 Gb if you access the .ova file from a USB key) on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors. If you do not have 14GB free, then visit the [help page](help.html) to inquire about other options.
+Before you begin, the download and install process **requires at least 14GB free** (only 10 Gb if you access the .ova file from a USB key or separate hard drive) on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors. If you do not have 14GB free, then visit the [help page](help.html) to inquire about other options.
 
 ### Installing BCE on your laptop or desktop computer
 
