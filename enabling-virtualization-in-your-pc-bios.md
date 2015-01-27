@@ -24,6 +24,7 @@ instructions](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_L
 	**SVM**, or **Vanderpool**. Enable **Intel VT-d** or **AMD IOMMU** if the
 	options are available.
   * Save your changes and reboot.
+  * Delete any existing VMs (**Machine > Remove ** and select ** Delete all files**) and re-import the .ova file (following step 4 and subsequent steps of the installation instructions).
 
 #### Check if your system supports Virtualization
 
