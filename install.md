@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Laptop Installation
+title: Installation
 ---
 
 BCE is currently available in two forms, both documented below.
@@ -39,6 +39,8 @@ Before you begin, the download and install process **requires at least 14GB free
   desktop.
 
 **Installation trouble?** See our [help page](help.html).
+
+We provide [screencasts](screencasts.html) demonstrating installation based on these instructions.
 
 ### Running BCE on EC2 instances
 
