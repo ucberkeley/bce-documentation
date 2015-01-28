@@ -18,6 +18,8 @@ terminal or by clicking on their menu entry. For example:
   - Typing `rstudio` or clicking **Applications > Programming > RStudio**
   - Typing `R` or clicking **Applications > Programming > R**
 
+More details and a demonstration are available as a [screencast](http://youtu.be/ezxwyzQqd4s).
+
 #### Stopping and restarting the VM on your laptop
 
 To stop the VM, simply click the red power button in the upper right.
