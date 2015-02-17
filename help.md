@@ -15,7 +15,7 @@ BCE and answer your questions.
 
 The next BCE install session will be held on:
 
-**NONE SCHEDULED, please request help via the [support forum](https://groups.google.com/forum/#!forum/ucb-bce)**
+**None Scheduled at this time; please request help via the [support forum](https://groups.google.com/forum/#!forum/ucb-bce)**
 
 Attend the next scheduled group installation session where experts
 will help you install BCE, get you familiar with the environment, or
