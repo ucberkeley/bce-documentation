@@ -7,3 +7,4 @@ Important: If there are any patch files associated with a given VM then after yo
 
     oski@BCE:~$ sudo bash name_of_patch_file
 
+The same instructions apply to use any of the add-on scripts we provide for adding software/functionality to the VM.

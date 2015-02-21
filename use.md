@@ -39,8 +39,12 @@ One useful thing will be to share folders between the VM and the host machine so
   - Alternatively, from the Terminal, you can also see the directory by doing `cd ~/Desktop/Shared/sf_Documents` and then `ls` will show you the files. 
   - Be careful. Unless you selected **Read only** at the same time as **Make permanent**, any changes to the shared folder on the VM affects the folder in the *real world*, namely your computer.
 
-#### Changing the memory (RAM) and number of CPUs of your VM
+#### Changing the memory (RAM) and number of CPUs of your VirtualBox VM
 
 Before starting the VM, click on the **Settings** icon in the VirtualBox Manager window task bar. Select **System**. To increase memory, click on **Motherboard** and adjust the **Base Memory** slider.  To increase the number of virtual CPUs to be more than the default of one, click on **Processor** and adjust the **Processor(s)** slider. In general you would not want to select more processors than the host machine has cores.
 
 At the moment, you cannot increase the amount of disk space associated with the VM beyond 16 Gb, but you can of course use Shared Folders to access the disk on the host machine.
+
+#### Adding tools for parallel computation
+
+Please run our [*add-parallel-tools.sh*](downloads.html) script on your running VM. 

@@ -9,6 +9,10 @@ title: Downloads
     - (3.4GB; MD5: 3d26353b7969ebcee6755529ae0751fc)
     - Patch file: none [patching instructions](patch.html)
 
+  - Scripts to add functionality to BCE [instructions for how to run these scripts](patch.html)
+    - [Adding functionality for AWS (modify-for-aws.sh)](https://github.com/ucberkeley/bce/blob/dev/post-install/add-parallel-tools.sh) 
+    - [Add tools for parallel computing (add-parallel-tools.sh)](https://github.com/ucberkeley/bce/blob/dev/post-install/add-parallel-tools.sh) 
+
 ## Upcoming preview versions
 
   - To appear in summer 2015: Fall 2015 preview
