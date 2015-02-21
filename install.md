@@ -44,15 +44,15 @@ We provide [screencasts](screencasts.html) demonstrating installation based on t
 
 ### Running BCE on EC2 instances
 
-[UNDER CONSTRUCTION - we don't currently have the BCE Spring 2015 VM available for EC2 but hope to do shortly. In the meantime you can test things out using one of our older beta version (BCE-0.1.7) AMIs as described here.]
+NEWS: The BCE-spring-2015 image (AMI) for Amazon's EC2 is now available.
 
   - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-1 (N. California) or us-west-2 (Oregon) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
-  - On the **AMIs** tab, search for and select the most recent BCE AMI amongst public images (currently ami-2d9a8b68 in us-west-1, and ami-1feabf2f in us-west-2).
+  - On the **AMIs** tab, search for and select "BCE-spring-2015" amongst public images (the image IDs are ami-958e6bd1 in us-west-1, and ami-cdf5d3fd in us-west-2).
   - Launch an instance
-  - Follow the instructions given in the **Connect** button to SSH to the instance
-  - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
+  - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
+  - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. The [*modify-for-aws.sh*](downloads.html) script will set this up so you can just ssh to `oski@52.140.43.42`. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
 
-Eventually we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.
+Soon we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.
 
 ### Download older versions of BCE
 
