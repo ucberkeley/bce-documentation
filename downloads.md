@@ -7,11 +7,11 @@ title: Downloads
 
   - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) 
     - (3.4GB; MD5: 3d26353b7969ebcee6755529ae0751fc)
-    - Patch file: none [patching instructions](patch.html)
+    - Patch file: none ([patching instructions](patch.html))
 
-  - Scripts to add functionality to BCE [instructions for how to run these scripts](patch.html)
-    - [Adding functionality for AWS (modify-for-aws.sh)](https://github.com/ucberkeley/bce/blob/dev/post-install/add-parallel-tools.sh) 
-    - [Add tools for parallel computing (add-parallel-tools.sh)](https://github.com/ucberkeley/bce/blob/dev/post-install/add-parallel-tools.sh) 
+  - Scripts to add functionality to BCE ([instructions for how to run these scripts](patch.html))
+    - [Adding functionality for AWS (modify-for-aws.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/modify-for-aws.sh)
+    - [Add tools for parallel computing (add-parallel-tools.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-tools.sh)
 
 ## Upcoming preview versions
 
