@@ -47,14 +47,23 @@ We provide [screencasts](screencasts.html) demonstrating installation based on t
 
 NEWS: The BCE-spring-2015 image (AMI) for Amazon's EC2 is now available.
 
+#### Starting a BCE-based EC2 VM via the AWS console.
+
   - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-1 (N. California) or us-west-2 (Oregon) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
   - On the **AMIs** tab, search for and select "BCE-spring-2015" amongst public images (the image IDs are ami-958e6bd1 in us-west-1, and ami-cdf5d3fd in us-west-2).
   - Launch an instance
-  - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
+  - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look like `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
   - After first logging in, we suggest you run our [*modify-for-aws.sh*](downloads.html) script to add some additional functionality specific to AWS. 
   - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. The [*modify-for-aws.sh*](downloads.html) script will set this up so you can just ssh to `oski@<VM_IP_address>`. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
 
-Soon we hope to post tips on creating an EC2 virtual cluster with multiple connected nodes, either using StarCluster or the Python boto package.
+#### Starting a BCE-based EC2 virtual cluster via Starcluster
+
+  - Install [Starcluster](http://star.mit.edu/cluster/docs/latest/installation.html). You could do this in your VirtualBox BCE VM if you like.
+  - Modify our example Starcluster configuration file [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster_example.config) to use your AWS credentials and account number and your SSH key pair. Save your config file in your home directory as *~/starcluster/.config*.
+  - Follow the example code in [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster.sh) to start your virtual cluster and add parallel tools for Python and R.
+  - SSH to the cluster: `starcluster sshmaster -u oski mycluster`.
+
+Keep your eyes out here for future documentation for starting EC2 instances and clusters via Vagrant and boto.
 
 ### Download older versions of BCE
 
