@@ -60,8 +60,8 @@ NEWS: The BCE-spring-2015 image (AMI) for Amazon's EC2 is now available.
 
   - Install [Starcluster](http://star.mit.edu/cluster/docs/latest/installation.html). You could do this in your VirtualBox BCE VM if you like.
   - Modify our example Starcluster configuration file [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster_example.config) to use your AWS credentials and account number and your SSH key pair. Save your config file in your home directory as *~/starcluster/.config*.
-  - Follow the example code in [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster.sh) to start your virtual cluster and add parallel tools for Python and R.
-  - SSH to the cluster: `starcluster sshmaster -u oski mycluster`.
+  - Follow the example code in [starcluster.sh](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster.sh) to start your virtual cluster and add parallel tools for Python and R.
+  - SSH to the cluster: `starcluster sshmaster -u oski mycluster`. Now you're ready to run your parallel computation.
 
 Keep your eyes out here for future documentation for starting EC2 instances and clusters via Vagrant and boto.
 

@@ -49,4 +49,4 @@ At the moment, you cannot increase the amount of disk space associated with the 
 
 Please run our [*add-parallel-tools.sh*](downloads.html) script on your running VM. This provides standard parallel packages for Python and R as well as providing MPI for multi-node computation.
 
-If you have started a virtual cluster via Starcluster, please also run our [*add-parallel-starcluster.sh*](downloads.html) script on your running (master) VM.
+If you have started a virtual cluster via Starcluster, please also run our [*add-parallel-starcluster.sh*](downloads.html) script on your running (master) VM to add parallel software to the worker nodes.
