@@ -17,13 +17,15 @@ Before you begin, the download and install process **requires at least 14GB free
 
 1) Download and install Oracle VirtualBox for:
 
-  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X VirtualBox-4.3.20-96996-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg) (108MB)
-  - <span class="fa fa-windows fa-2x"<span></span> [Windows VirtualBox-4.3.20-96997-Win.exe](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe) (105MB)
+  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X VirtualBox-4.3.28-100309-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-OSX.dmg) (108MB)
+  - <span class="fa fa-windows fa-2x"<span></span> [Windows VirtualBox-4.3.28-100309-Win.exe](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Win.exe) (105MB)
   - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
   - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
 
 2) Download the latest BCE Virtual Machine (VM) Appliance file (.ova):
 
+  - [Summer 2015 (BCE-2015-summer.ova)](https://berkeley.box.com/shared/static/68g11omap9yqow3a09t36wvwsuplio3w.ova) (3.3GB)
+    - (MD5 integrity checksum: 86206eb911f11464d5fc8488e4ec5f2c)
   - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) (3.4GB)
     - (MD5 integrity checksum: 3d26353b7969ebcee6755529ae0751fc)
 
