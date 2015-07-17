@@ -3,7 +3,7 @@
 If you would like help installing or using BCE, then you are probably
 looking for:
 
-[The Official BCE Documentation](http://ucberkeley.github.io/bce-documentation/)
+[The Official BCE Documentation](http://bce.berkeley.edu)
 
 ### BCE Documentation Github Repo
 
@@ -15,4 +15,4 @@ You're welcome to look around or contribute. :)
 
 But most likely you really just want to go read:
 
-[The Official BCE Documentation](http://ucberkeley.github.io/bce-documentation/)
+[The Official BCE Documentation](http://bce.berkeley.edu)

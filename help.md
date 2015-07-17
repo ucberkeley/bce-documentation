@@ -26,6 +26,9 @@ BCE.
 
 Ask for help via email on the [BCE community support forum](https://groups.google.com/forum/#!forum/ucb-bce)
 
+
 #### Troubleshooting Tips
 
 If you'd like to attempt to fix it yourself, you may want to check out our [Troubleshooting Tips](troubleshooting-tips.html).
+
+Or see our [screencasts](screencasts.html).

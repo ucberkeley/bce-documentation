@@ -18,7 +18,7 @@ terminal or by clicking on their menu entry. For example:
   - Typing `rstudio` or clicking **Applications > Programming > RStudio**
   - Typing `R` or clicking **Applications > Programming > R**
 
-More details and a demonstration are available as a [screencast](http://youtu.be/ezxwyzQqd4s).
+More information can be found in our [screencasts](screencasts.html) of tutorials on various topics.
 
 #### Stopping and restarting the VM on your laptop
 
