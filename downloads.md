@@ -15,7 +15,7 @@ title: Downloads
 
 ## Release schedule
 
-We plan to release a new version of BCE at the start of each semester (January for spring semester and August for fall semester). In preparation for each semestter we'll prepare and make available a preview version that will allow us to test things out and get feedback before releasing the final version for the semester.
+We plan to release a new version of BCE at the start of each semester (January for spring semester, May for summer, and August for fall). We will also prepare preview versions a couple of weeks prior to these official releases that will allow us to test and get feedback.
 
 As need arises, we will release patches to fix issues in the official release. These patches will simply be code files that a user can run within the VM to update the VM.
 
