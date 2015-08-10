@@ -26,8 +26,7 @@ Before you begin, the download and install process **requires at least 14GB free
 
   - [Summer 2015 (BCE-2015-summer.ova)](https://berkeley.box.com/s/68g11omap9yqow3a09t36wvwsuplio3w) (3.5GB)
     - (MD5 integrity checksum: 9e9500c00b7f2a1f0ac10623fbc6fbed)
-  - [Spring 2015 (BCE-2015-spring.ova)](https://berkeley.box.com/s/2g9x9c3q7qwhb9e4trwc) (3.4GB)
-    - (MD5 integrity checksum: 3d26353b7969ebcee6755529ae0751fc)
+  - [older versions](downloads.md) are available, however **Summer 2015 is the current recommended release**.
 
 3) Open the VirtualBox application you installed in Step 1.
 
