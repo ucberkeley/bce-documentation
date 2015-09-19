@@ -50,8 +50,8 @@ We recommend use of [BCE-spring-2015](downloads.html) for EC2. The BCE-summer-20
 
 #### Starting a BCE-based EC2 VM via the AWS console.
 
-  - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-1 (N. California) or us-west-2 (Oregon) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
-  - On the **AMIs** tab, search for and select "BCE-spring-2015" amongst public images (the image IDs are ami-958e6bd1 in us-west-1, and ami-cdf5d3fd in us-west-2).
+  - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-2 (Oregon -- recommended due to cheaper pricing) or us-west-1 (N. California) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
+  - On the **AMIs** tab, search for and select "BCE-spring-2015" amongst public images (the image IDs are ami-cdf5d3fd in us-west-2 and ami-958e6bd1 in us-west-1).
   - Launch an instance
   - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look like `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
   - After first logging in, we suggest you run our [*modify-for-aws.sh*](downloads.html) script to add some additional functionality specific to AWS. 
