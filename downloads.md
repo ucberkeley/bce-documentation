@@ -10,8 +10,8 @@ title: Downloads
 
   - Scripts to add functionality to BCE ([instructions for how to run these scripts](patch.html))
     - [Adding functionality for AWS (modify-for-aws.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/modify-for-aws.sh)
-    - [Add tools for parallel computing (add-parallel-tools.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-tools.sh) NOTE: Python tools install successfully only in BCE-spring-2015 (see below).
-    - [Add tools for parallel computing to Starcluster worker nodes (add-parallel-starcluster.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-starcluster.sh) NOTE: use only with BCE-spring-2015 (see below); Starcluster and BCE-summer-2015 conflict.
+    - [Add tools for parallel computing (add-parallel-tools.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-tools.sh).
+    - [Add tools for parallel computing to Starcluster worker nodes (add-parallel-starcluster.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-starcluster.sh) NOTE: use with BCE-spring-2015 EC2 image.
 
 ## Release schedule
 

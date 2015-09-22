@@ -46,7 +46,7 @@ We provide [screencasts](screencasts.html) demonstrating installation based on t
 
 ### Running BCE on EC2 instances
 
-We recommend use of [BCE-spring-2015](downloads.html) for EC2. The BCE-summer-2015 image for EC2 is lacking Python packages and will not work with Starcluster. 
+At the moment, only BCE-spring-2015 is available for EC2. 
 
 #### Starting a BCE-based EC2 VM via the AWS console.
 
