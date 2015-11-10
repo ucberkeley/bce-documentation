@@ -27,7 +27,7 @@ As need arises, we will release patches to fix issues in the official release. T
 
 ## Upcoming preview versions
 
-  - To appear in summer 2015: Fall 2015 preview
+  - To appear in fall 2015: Spring 2016 preview
 
 ### Older preview versions
 

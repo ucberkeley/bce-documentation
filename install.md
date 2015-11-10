@@ -46,18 +46,20 @@ We provide [screencasts](screencasts.html) demonstrating installation based on t
 
 ### Running BCE on EC2 instances
 
-At the moment, only BCE-spring-2015 is available for EC2. 
+We provide both BCE-2015-fall and BCE-2015-spring versions for EC2. In general we recommend the newer BCE-2015-fall version, but for anyone wishing to use BCE with StarCluster, you should use BCE-2015-spring as BCE-2015-fall is incompatible with StarCluster.
 
 #### Starting a BCE-based EC2 VM via the AWS console.
 
   - Go to the EC2 dashboard by logging onto AWS at the [AWS management console](https://console.aws.amazon.com/?nc2=h_m_mc), select **EC2**, and choose the us-west-2 (Oregon -- recommended due to cheaper pricing) or us-west-1 (N. California) region, as that is where we have posted the BCE AMI. (You’ll need to have an AWS account set up.)
-  - On the **AMIs** tab, search for and select "BCE-spring-2015" amongst public images (the image IDs are ami-cdf5d3fd in us-west-2 and ami-958e6bd1 in us-west-1).
+  - On the **AMIs** tab, search for and select "BCE-2015-fall" amongst public images (the image IDs are ami-0c9a8d6d in us-west-2 and ami-78abc418 in us-west-1).
   - Launch an instance
   - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look like `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
   - After first logging in, we suggest you run our [*modify-for-aws.sh*](downloads.html) script to add some additional functionality specific to AWS. 
   - If you want to connect to the instance as the *oski* user, you can deposit your public SSH key in the .ssh folder of the *oski* user. The [*modify-for-aws.sh*](downloads.html) script will set this up so you can just ssh to `oski@<VM_IP_address>`. Alternatively you can do ````sudo su - oski```` from UNIX shell prompt after logging into the instance.
 
 #### Starting a BCE-based EC2 virtual cluster via Starcluster
+
+This will only work with BCE-2015-spring as StarCluster is not compatible with the newer version of Ubuntu used in BCE-2015-fall.
 
   - Install [Starcluster](http://star.mit.edu/cluster/docs/latest/installation.html). You could do this in your VirtualBox BCE VM if you like.
   - Modify our example Starcluster configuration file [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster_example.config) to use your AWS credentials and account number and your SSH key pair. Save your config file in your home directory as *~/starcluster/.config*.
