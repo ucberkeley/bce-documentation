@@ -15,19 +15,27 @@ BCE is currently available in two forms, both documented below.
 
 Before you begin, the download and install process **requires at least 14GB free** (only 10 Gb if you access the .ova file from a USB key or separate hard drive) on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors. If you do not have 14GB free, then visit the [help page](help.html) to inquire about other options.
 
-1) Download and install Oracle VirtualBox for:
+The current recommended release is 2015 Summer.
 
-  - <span class="fa fa-apple fa-2x"<span></span> [Mac OS X VirtualBox-4.3.28-100309-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-OSX.dmg) (108MB)
-  - <span class="fa fa-windows fa-2x"<span></span> [Windows VirtualBox-4.3.28-100309-Win.exe](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Win.exe) (105MB)
-  - <span class="fa fa-linux fa-2x"<span></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
+#### 
+
+1) Download and install Oracle VirtualBox for:
+  - Mac OS X
+    - <span class="fa fa-apple fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-OSX.dmg) (108MB)
+    - <span class="fa fa-apple fa-2x"></span> [2015 Fall](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-OSX.dmg) (86MB)
+  - Windows
+    - <span class="fa fa-windows fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Win.exe) (105MB)
+    - <span class="fa fa-windows fa-2x"<span></span> [2015 Fall](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-Win.exe) (112MB)
+  - <span class="fa fa-linux fa-2x"></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
   - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
 
-2) Download the latest BCE Virtual Machine (VM) Appliance file (.ova):
-
+2) Download the BCE Virtual Machine (VM) Appliance file (.ova):
   - [Summer 2015 (BCE-2015-summer.ova)](https://berkeley.box.com/s/68g11omap9yqow3a09t36wvwsuplio3w) (3.5GB)
     - (MD5 integrity checksum: 9e9500c00b7f2a1f0ac10623fbc6fbed)
-  - [older versions](downloads.html) are available, however **Summer 2015 is the current recommended release**.
-
+  - [Fall 2015 (BCE-2015-fall.ova)](https://berkeley.box.com/s/wqnuag86gmdxd17za868gjdieym6phvp) (3.7GB)
+    - (MD5 integrity checksum: db24805d6c40e93693f010494d3cd811)
+  - Older versions of BCE are available from the [BCE Downloads page](downloads.html).
+ 
 3) Open the VirtualBox application you installed in Step 1.
 
 4) From the menu select **File > Import appliance** and locate the BCE .ova file you downloaded in Step 2.
@@ -67,7 +75,3 @@ This will only work with BCE-2015-spring as StarCluster is not compatible with t
   - SSH to the cluster: `starcluster sshmaster -u oski mycluster`. Now you're ready to run your parallel computation.
 
 Keep your eyes out here for future documentation for starting EC2 instances and clusters via Vagrant and boto.
-
-### Download older versions of BCE
-
-Older versions of BCE are available from the [BCE Downloads page](downloads.html).
