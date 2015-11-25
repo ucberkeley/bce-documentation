@@ -63,14 +63,13 @@ We provide both BCE-2015-fall and BCE-2015-spring versions for EC2. In general w
   - Launch an instance
   - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look like `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
   - After first logging in, we suggest you run our [*modify-for-aws.sh*](downloads.html) script to add some additional functionality specific to AWS. 
-  - If you want to connect to the instance as the *ubuntu* user, you can deposit your public SSH key in the .ssh folder of the *ubuntu* user. The [*modify-for-aws.sh*](downloads.html) script will set this up so you can just ssh to `ubuntu@<VM_IP_address>`. Alternatively you can do ````sudo su - ubuntu```` from UNIX shell prompt after logging into the instance.
 
 #### Starting a BCE-based EC2 virtual cluster via Starcluster
 
 This will only work with BCE-2015-spring as StarCluster is not compatible with the newer version of Ubuntu used in BCE-2015-fall.
 
   - Install [Starcluster](http://star.mit.edu/cluster/docs/latest/installation.html). You could do this in your VirtualBox BCE VM if you like.
-  - Modify our example Starcluster configuration file [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster_example.config) to use your AWS credentials and account number and your SSH key pair. Save your config file in your home directory as *~/starcluster/.config*.
+  - Modify our example Starcluster configuration file [starcluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster_example.config) to use your AWS credentials and account number and your SSH key pair. Save your config file in your home directory as *~/.starcluster/config*.
   - Follow the example code in [starcluster.sh](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/starcluster.sh) to start your virtual cluster and add parallel tools for Python and R. You'll need the various scripts for adding functionality to BCE from the [BCE Downloads page](downloads.html).
   - SSH to the cluster: `starcluster sshmaster -u ubuntu mycluster`. Now you're ready to run your parallel computation.
 
