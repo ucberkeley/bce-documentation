@@ -64,6 +64,10 @@ We provide both BCE-2015-fall and BCE-2015-spring versions for EC2. In general w
   - Follow the instructions given in the **Connect** button to SSH to the instance. From the command line, this will look like `ssh -i ~/.ssh/your_ssh_key ubuntu@52.140.43.42` where the IP address after the '@' will be given in the instructions. 
   - After first logging in, we suggest you run our [*modify-for-aws.sh*](downloads.html) script to add some additional functionality specific to AWS. 
 
+#### Using BCE with an GPU-based EC2 instance
+
+We've created a version of BCE with software for GPU computation, in particular CUDA, PyCUDA, RCUDA, and MAGMA. Simply choose the "BCE-2015-fall-gpu" public image (ami-5154b331) in the us-west-2 (Oregon) region.
+
 #### Starting a BCE-based EC2 virtual cluster via Starcluster
 
 This will only work with BCE-2015-spring as StarCluster is not compatible with the newer version of Ubuntu used in BCE-2015-fall.
