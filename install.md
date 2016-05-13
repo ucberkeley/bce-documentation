@@ -15,9 +15,7 @@ BCE is currently available in two forms, both documented below.
 
 Before you begin, the download and install process **requires at least 14GB free** (only 10 Gb if you access the .ova file from a USB key or separate hard drive) on your hard drive or you are likely to encounter problems installing and running BCE due to out of disk space errors. If you do not have 14GB free, then visit the [help page](help.html) to inquire about other options.
 
-The current recommended release is 2015 Summer.
-
-#### 
+The current recommended release is 2015 Fall.
 
 1) Download and install Oracle VirtualBox for:
 
@@ -27,7 +25,7 @@ The current recommended release is 2015 Summer.
     - <span class="fa fa-apple fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-OSX.dmg) (108MB)
   - Windows
 
-    - <span class="fa fa-windows fa-2x"<span></span> [2015 Fall](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-Win.exe) (112MB)
+    - <span class="fa fa-windows fa-2x"</span> [2015 Fall](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-Win.exe) (112MB)
     - <span class="fa fa-windows fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Win.exe) (105MB)
   - <span class="fa fa-linux fa-2x"></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
   - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
