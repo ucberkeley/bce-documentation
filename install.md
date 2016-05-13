@@ -23,12 +23,12 @@ The current recommended release is 2015 Summer.
 
   - Mac OS X
 
-    - <span class="fa fa-apple fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-OSX.dmg) (108MB)
     - <span class="fa fa-apple fa-2x"></span> [2015 Fall](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-OSX.dmg) (86MB)
+    - <span class="fa fa-apple fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-OSX.dmg) (108MB)
   - Windows
 
-    - <span class="fa fa-windows fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Win.exe) (105MB)
     - <span class="fa fa-windows fa-2x"<span></span> [2015 Fall](http://download.virtualbox.org/virtualbox/5.0.10/VirtualBox-5.0.10-104061-Win.exe) (112MB)
+    - <span class="fa fa-windows fa-2x"></span> [2015 Summer](http://download.virtualbox.org/virtualbox/4.3.28/VirtualBox-4.3.28-100309-Win.exe) (105MB)
   - <span class="fa fa-linux fa-2x"></span> [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
   - Other versions available on [Oracle VirtualBox download page](https://www.virtualbox.org/wiki/Downloads).
 

@@ -1,5 +1,4 @@
 name: BCE
-markdown: redcarpet
 redcarpet:
     extensions: ['smart']
 highlighter: pygments
