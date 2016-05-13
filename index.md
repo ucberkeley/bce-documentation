@@ -64,6 +64,6 @@ and other independent contributors.
 
 ### Technical details on provisioning BCE
 
-To see how we provision BCE, check out [our Github page](https://github.com/ucberkeley/bce), following the instructions in the [HOWTO page](https://github.com/ucberkeley/bce/blob/master/provisioning/HOWTO.md) of the **provisioning** directory.
+To see how we provision BCE, check out [our Github page](https://github.com/ucberkeley/bce), following the instructions in the [HOWTO page](https://github.com/ucberkeley/bce/blob/dev/provisioning/HOWTO.md) of the **provisioning** directory.
 
 If you're an instructor using BCE for a class/workshop or are using BCE for your research and have a request for software to be installed on BCE, please email <bce@lists.berkeley.edu>, post a note on the [BCE community support forum](https://groups.google.com/forum/#!forum/ucb-bce), or enter information on our [software tracking document](https://docs.google.com/a/stat.berkeley.edu/spreadsheets/d/1h5CcY1rLsRwUrlxutSTu02uTqOegjYS_zWC4x589Rz8/edit?usp=sharing_eid).

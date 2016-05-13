@@ -13,7 +13,9 @@ title: Downloads
 
     - [Adding functionality for AWS (modify-for-aws.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/modify-for-aws.sh)
     - [Add tools for parallel computing (add-parallel-tools.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-tools.sh).
+    - [Add tools for parallel computing for BCE-2015-spring (add-parallel-tools-2015-spring.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-tools-2015-spring.sh).
     - [Add tools for parallel computing to Starcluster worker nodes (add-parallel-starcluster.sh)](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/add-parallel-starcluster.sh) NOTE: use with BCE-spring-2015 EC2 image.
+
 
 ## Release schedule
 
