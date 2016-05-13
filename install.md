@@ -67,13 +67,15 @@ We provide both BCE-2015-fall and BCE-2015-spring versions for EC2. In general w
 
 #### Starting a BCE-based EC2 virtual cluster via CfnCluster
 
+CfnCluster allows you to easily start up multiple EC2 instances to form your own Linux cluster. You can then login to the master node of the cluster and submit jobs via a scheduler that will manage those jobs. One of the nice things about CfnCluster is that if you request more cores or nodes than are available, additional EC2 instances will be added to your cluster dynamically. And unused instances will be terminated to save you money. 
+
 Note that the current BCE AMI that is compatible with CfnCluster uses Ubuntu 14.04, an older version of Ubuntu than used in other current BCE versions.
 
   - Install [CfnCluster](http://cfncluster.readthedocs.io/en/latest/getting_started.html). CfnCluster provides a command line interface (CLI) written in Python, and is installable via `pip` and `easy_install`. You could do this in your VirtualBox BCE VM if you like.
   - Modify our example CfnCluster configuration file [cfncluster_example.config](https://raw.githubusercontent.com/ucberkeley/bce/dev/post-install/cfncluster_example.config) to use your AWS credentials and account number and your SSH key pair. Save your config file in your home directory as *~/.cfncluster/config*. Note that at present the use of SLURM as the scheduler with Ubuntu is broken so we recomnd SGE.
-  - Invoke `cfncluster create` to start your virtual cluster. Note that the AMI is only available in the us-west-2 region.
-  - SSH to the cluster using the IP printed to the screen at the end of the CfnCluster startup process and with the flag `-i ~/.ssh/ec2.pem` where you should use the name of your private key in place of `ec2.pem`. Now you're ready to run your parallel computation.
-  - You can now start jobs from the master node of your cluster using syntax such as `qsub -pe mpi 6 job.sh`. 
+  - Invoke `cfncluster create mycluster` to start your virtual cluster. Note that the AMI is only available in the us-west-2 region.
+  - SSH to the cluster using the `MasterPublicIP` printed to the screen at the end of the CfnCluster startup process and with the flag `-i ~/.ssh/ec2.pem` where you should use the name of your private key in place of `ec2.pem`. Now you're ready to run your parallel computation.
+  - You can now start jobs from the master node of your cluster using syntax such as `qsub -pe mpi 6 job.sh` for multiple-node jobs or `qsub -pe smp 4 job.sh` for single-node jobs. 
 
 #### Using BCE with an GPU-based EC2 instance
 
